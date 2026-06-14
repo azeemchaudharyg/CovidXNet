@@ -109,7 +109,7 @@ pip install -r requirements.txt
 ---
 
 ## Citation
-
+```bibtex
 @article{azeem2023neural,
           title={Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges},  
           author={Azeem, Muhammad and Javaid, Shumaila and Khalil, Ruhul Amin and Fahim, Hamza  and Althobaiti, Turke and Alsharif, Nasser and Saeed, Nasir},  
