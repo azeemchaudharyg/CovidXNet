@@ -104,14 +104,14 @@ pip install scikit-learn pandas numpy matplotlib opencv-python
 
 ## Experimental Results
 ### Quantitative Results
-<p align="center">
+<div align="center">
   
 | Model Architecture | Accuracy (↑) | Precision (↑) | F1-Score (↑) | Epochs |
 | :--- | :---: | :---: | :---: | :---: |
 | VGG-16 Baseline | 91.20% | 90.85% | 91.00% | 50 |
 | ResNet-50 Baseline | 94.45% | 94.10% | 94.22% | 50 |
 | **Proposed ConXNet** | **97.80%** | **97.93%** | **97.92%** | **100** |
-</p>
+</div>
 
 ## Visual Results
 <p align="center">
