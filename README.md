@@ -109,6 +109,7 @@ pip install -r requirements.txt
 ---
 
 ## Citation
+If you find our research or the ConXNet model useful in your work, please cite our paper:
 ```bibtex
 @article{azeem2023neural,
           title={Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges},  
