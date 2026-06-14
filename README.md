@@ -84,19 +84,22 @@ pip install -r requirements.txt
               │    │      ├── Covid  
               │    │      └── Normal  
               │    └── Train/  
-              │           ├── Covid  
-              │           └── Normal 
+              │    │      ├── Covid  
+              │    │      └── Normal 
 
 ---
 
 ## Experimental Results
 ### Quantitative Results
+<p align="center">
+  
 | Model Architecture | Accuracy (↑) | Precision (↑) | F1-Score (↑) | Epochs |
 | :--- | :---: | :---: | :---: | :---: |
 | VGG-16 Baseline | 91.20% | 90.85% | 91.00% | 50 |
 | ResNet-50 Baseline | 94.45% | 94.10% | 94.22% | 50 |
 | **Proposed ConXNet** | **97.80%** | **97.93%** | **97.92%** | **100** |
 
+</p>
 ## Visual Results
 <p align="center">
   <img src="src/visual.png" alt="Algorithm Flowchart" width="500"><br>
