@@ -72,6 +72,26 @@ pip install -r requirements.txt
 
 ## Dataset
 
+**Primary Dataset:** The ConXNet model was evaluated on a primary dataset of 13,808 chest X-ray images, comprising 3,616 COVID-19 and 10,192 non-COVID-19 samples.
+
+**Multi-Source Validation:** To ensure clinical robustness, the dataset was augmented with 3,615 additional chest X-rays sourced from a podcast dataset, a German medical school, Kaggle, and GitHub.
+
+**Evaluation Objective:** Integrating these diverse, authentic clinical scenarios allowed for a thorough assessment of the proposed model's real-world reliability, performance, and generalizability.
+
+CovidXNet/
+  ├── data/
+  │    ├── Test/
+  │    │    ├── Covid
+  │    │    └── Normal
+  │    ├── Train/
+  │         ├── Covid
+  │         ├── Normal
+  ├── outputs/
+  │    └── sample.h5
+  ├── src/
+  │    └── files.py
+  ├── main.py
+
 ---
 
 ## Experimental Results
