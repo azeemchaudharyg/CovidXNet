@@ -37,14 +37,15 @@ The paper tracks the end-to-end integration of artificial neural networks within
 
 We recommend utilizing an Anaconda environment to manage dependencies and reproducibility.
 
-### Environment Creation
-```bash
 conda create -n neural-disease-det python=3.10 -y
 conda activate neural-disease-det
 pip install -r requirements.txt
 
 ---
-### Citation
+
+## Citation
+---
+
 @article{azeem2023neural,
   title={Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges},
   author={Azeem, Muhammad and Javaid, Shumaila and Khalil, Ruhul Amin and Fahim, Hamza  and Althobaiti, Turke and Alsharif, Nasser and Saeed, Nasir},
