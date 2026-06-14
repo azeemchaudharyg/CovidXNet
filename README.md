@@ -46,13 +46,22 @@ pip install -r requirements.txt
 ## Citation
 
 @article{azeem2023neural,
+
           title={Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges},
+          
           author={Azeem, Muhammad and Javaid, Shumaila and Khalil, Ruhul Amin and Fahim, Hamza  and Althobaiti, Turke and Alsharif, Nasser and Saeed, Nasir},
+         
           journal={Bioengineering},
+          
           volume={10},
+          
           number={7},
+          
           pages={850},
+          
           year={2023},
+          
           publisher={MDPI},
+          
           doi={10.3390/bioengineering10070850}
 }
