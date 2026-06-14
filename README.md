@@ -1,9 +1,12 @@
 # Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges
 
 Official repository accompanying the review paper: **"Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges"**
-**Authors:** Muhammad Azeem, Shumaila Javaid, Ruhul Amin Khalil, Hamza Fahim, Turke Althobaiti, Nasser Alsharif, and Nasir Saeed  
+
+**Authors:** Muhammad Azeem, Shumaila Javaid, Ruhul Amin Khalil, Hamza Fahim, Turke Althobaiti, Nasser Alsharif, and Nasir Saeed 
+
 **Institution:** University of Salford, Manchester, England, UK.  
-**DOI/URL:** (https://doi.org/10.3390/bioengineering10070850)
+
+**DOI:** (https://doi.org/10.3390/bioengineering10070850)
 
 ---
 
