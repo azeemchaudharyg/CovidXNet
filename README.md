@@ -78,20 +78,14 @@ pip install -r requirements.txt
 
 **Evaluation Objective:** Integrating these diverse, authentic clinical scenarios allowed for a thorough assessment of the proposed model's real-world reliability, performance, and generalizability.
 
-* **File Structure**  
-            CovidXNet/  
+* **File Structure**   
               ├── data/  
               │    ├── Test/  
               │    │      ├── Covid  
               │    │      └── Normal  
-              │    ├── Train/  
+              │    └── Train/  
               │           ├── Covid  
-              │           └── Normal
-              ├── outputs/  
-              │      └── sample.h5  
-              ├── src/  
-              │      └── files.py  
-              ├── main.py  
+              │           └── Normal 
 
 ---
 
