@@ -2,13 +2,13 @@
 
 Official repository accompanying the review paper: **"Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges"**
 **Authors:** Muhammad Azeem, Shumaila Javaid, Ruhul Amin Khalil, Hamza Fahim, Turke Althobaiti, Nasser Alsharif, and Nasir Saeed  
-**Institution:** Published in *Bioengineering* (MDPI), 2023.  
-**DOI/URL:** [https://doi.org/10.3390/bioengineering10070850](https://doi.org/10.3390/bioengineering10070850)
+**Institution:** University of Salford, Manchester, England, UK.  
+**DOI/URL:** (https://doi.org/10.3390/bioengineering10070850)
 
 ---
 
 ## Abstract
-The global emergence of infectious diseases like COVID-19 highlights the immediate necessity for accurate, automated, and scalable diagnostic systems. Artificial Neural Networks (ANNs) and deep learning paradigms have emerged as pivotal tools in modern healthcare, transforming medical image processing, epidemiological modeling, and non-invasive diagnostic methodologies. This paper provides a comprehensive review of the recent advancements in applying neural network architectures to detect COVID-19 alongside other critical diseases (e.g., breast cancer, lung cancer, and skin pathologies). We dissect the core methodologies—ranging from computer vision techniques on chest radiographs and CT scans to multi-modal data fusion strategies. Finally, we map out the prominent structural trade-offs, deployment complexities, and clinical implementation challenges, laying down a roadmap for future AI-driven diagnostic frameworks.
+Artificial neural networks (ANNs) ability to learn, correct errors, and transform a large amount of raw data into beneficial medical decisions for treatment and care has increased in popularity for enhanced patient safety and quality of care. Therefore, this paper reviews the critical role of ANNs in providing valuable insights for patients’ healthcare decisions and efficient disease diagnosis. We study different types of ANNs in the existing literature that advance ANNs’ adaptation for complex applications. Specifically, we investigate ANNs’ advances for predicting viral, cancer, skin, and COVID-19 diseases. Furthermore, we propose a deep convolutional neural network (CNN) model called ConXNet, based on chest radiography images, to improve the detection accuracy of COVID-19 disease. ConXNet is trained and tested using a chest radiography image dataset obtained from Kaggle, achieving more than 97% accuracy and 98% precision, which is better than other existing state-of-the-art models, such as DeTraC, U-Net, COVID MTNet, and COVID-Net, having 93.1%, 94.10%, 84.76%, and 90% accuracy and 94%, 95%, 85%, and 92% precision, respectively. The results show that the ConXNet model performed significantly well for a relatively large dataset compared with the aforementioned models. Moreover, the ConXNet model reduces the time complexity by using dropout layers and batch normalization techniques. Finally, we highlight future research directions and challenges, such as the complexity of the algorithms, insufficient available data, privacy and security, and integration of biosensing with ANNs. These research directions require considerable attention for improving the scope of ANNs for medical diagnostic and treatment applications.
 
 ---
 
