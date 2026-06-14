@@ -47,7 +47,7 @@ The output maps are ultimately flattened and fed into a fully connected Dense La
 
 <p align="center">
   <img src="src/model.png" alt="Proposed ConXNet Model Architecture" width="800"><br>
-  <em>Figure 10: Structural workflow of the proposed ConXNet model for COVID-19 detection.</em>
+  <em>Structural workflow of the proposed ConXNet model for COVID-19 detection.</em>
 </p>
 
 ### 2. Algorithmic Flowchart
@@ -55,7 +55,7 @@ The diagnostic implementation handles balanced sampling, data splitting ($70\%$ 
 
 <p align="center">
   <img src="src/flowchart.png" alt="Algorithm Flowchart" width="500"><br>
-  <em>Figure 11: End-to-end flowchart of the proposed diagnostic algorithm.</em>
+  <em>End-to-end flowchart of the proposed diagnostic algorithm.</em>
 </p>
 
 ---
@@ -84,8 +84,8 @@ pip install -r requirements.txt
 
 ## Visual Results
 <p align="center">
-  <img src="src/flowchart.png" alt="Algorithm Flowchart" width="500"><br>
-  <em>Figure 11: End-to-end flowchart of the proposed diagnostic algorithm.</em>
+  <img src="src/visual.png" alt="Algorithm Flowchart" width="500"><br>
+  <em>Images used to evaluate the model accuracy with their outputs (a). Original image of COVID-19 patient (b). Heat map view of COVID-infected region. (c) Original image of the normal patient (d). Heat map view of the normal image.</em>
 </p>
 
 ---
