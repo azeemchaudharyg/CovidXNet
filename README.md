@@ -63,9 +63,11 @@ The diagnostic implementation handles balanced sampling, data splitting ($70\%$ 
 ## Installation & Setup
 
 We recommend utilizing an Anaconda environment to manage dependencies and reproducibility.
-
+```bash
 conda create -n neural-disease-det python=3.10 -y  
+```bash
 conda activate neural-disease-det  
+```bash
 pip install -r requirements.txt  
 
 ---
