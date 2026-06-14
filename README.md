@@ -92,6 +92,7 @@ pip install -r requirements.txt
 ## Experimental Results
 ### Quantitative Results
 <p align="center">
+  
 | Model Architecture | Accuracy (↑) | Precision (↑) | F1-Score (↑) | Epochs |
 | :--- | :---: | :---: | :---: | :---: |
 | VGG-16 Baseline | 91.20% | 90.85% | 91.00% | 50 |
