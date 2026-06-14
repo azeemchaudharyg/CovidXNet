@@ -62,13 +62,19 @@ The diagnostic implementation handles balanced sampling, data splitting ($70\%$ 
 
 ## Installation & Setup
 
-We recommend utilizing an Anaconda environment to manage dependencies and reproducibility.
+We recommend managing dependencies using Anaconda. The code is tested with Python 3.6+ and TensorFlow using the Keras backend.
+
+### Create and Activate the Environment
 ```bash
-conda create -n neural-disease-det python=3.10 -y  
+conda create -n conxnet python=3.6 -y
+conda activate conxnet
+```
+
+### Install dependencies
 ```bash
-conda activate neural-disease-det  
-```bash
-pip install -r requirements.txt  
+pip install tensorflow==1.15.0 keras==2.3.1
+pip install scikit-learn pandas numpy matplotlib opencv-python
+```
 
 ---
 
