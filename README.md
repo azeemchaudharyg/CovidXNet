@@ -36,6 +36,7 @@ The paper tracks the end-to-end integration of artificial neural networks within
 ---
 
 ## Method Overview: The ConXNet Model
+### 1. ConXNet Architecture
 The ConXNet model is engineered out of **four core sequential blocks**. Each block features a structural layout designed to extract features robustly while preventing internal covariate shifts:
 * **Convolutional Layer (Conv):** Extracts low-to-high level spatial features (edges, soft boundaries, textures) via filter matrices.
 * **Rectified Linear Unit (ReLU):** Implements non-linear mappings, forcing the network to lean non-negative linear values.
@@ -45,7 +46,7 @@ The ConXNet model is engineered out of **four core sequential blocks**. Each blo
 The output maps are ultimately flattened and fed into a fully connected Dense Layer followed by a binary output classifier.
 
 <p align="center">
-  <img src="src/model.jpg" alt="Proposed ConXNet Model Architecture" width="800"><br>
+  <img src="src/model.png" alt="Proposed ConXNet Model Architecture" width="800"><br>
   <em>Figure 10: Structural workflow of the proposed ConXNet model for COVID-19 detection.</em>
 </p>
 
@@ -53,7 +54,7 @@ The output maps are ultimately flattened and fed into a fully connected Dense La
 The diagnostic implementation handles balanced sampling, data splitting ($70\%$ training, $30\%$ validation), forward feature extraction, adaptive optimization, and final output categorization.
 
 <p align="center">
-  <img src="src/flowchart.jpg" alt="Algorithm Flowchart" width="500"><br>
+  <img src="src/flowchart.png" alt="Algorithm Flowchart" width="500"><br>
   <em>Figure 11: End-to-end flowchart of the proposed diagnostic algorithm.</em>
 </p>
 
