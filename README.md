@@ -19,6 +19,8 @@ Artificial neural networks (ANNs) ability to learn, correct errors, and transfor
 * **Comprehensive Multi-Disease Taxonomy:** Outlines the application of modern ANN frameworks across various modalities for infectious diseases (COVID-19) and non-communicable conditions (malignancies, dermatological diseases).
 * **Multi-Modal Diagnostic Survey:** Evaluates and contrasts image-based diagnostics (X-Rays, CT scans, ultrasound) against non-image-based inputs (blood biomarkers, clinical text, and epidemiological series).
 * **In-Depth Challenge Mapping:** Systematically classifies technical bottlenecks into four critical dimensions: algorithm selection, computational complexity, data deficiency/scarcity, and biosensing system integration.
+* **ConXNet Architecture:** Proposes a custom, highly accurate 4-block Convolutional Neural Network leveraging specialized feature maps, batch normalization, and nonlinear activation strategies optimized for medical imagery.
+* **Robust Multi-Source Evaluation:** Validates the proposed model across structurally diverse, authentic clinical datasets comprising over 17,000 images sourced from international clinics, Kaggle, GitHub, and academic databases.
 * **Future Deployment Horizons:** Synthesizes actionable research directions such as network pruning, data augmentation standards, and standardized privacy-preserving mechanisms for real-world clinical integration.
 
 ---
@@ -30,6 +32,30 @@ The paper tracks the end-to-end integration of artificial neural networks within
 2. **Feature Extraction:** Leveraging Deep Convolutional Neural Networks (CNNs) and Hybrid Architectures to extract spatial and structural markers from clinical inputs.
 3. **Classification & Segmentation:** Deploying supervised, unsupervised, and deep transfer learning algorithms to isolate lesions, classify disease severity, or predict epidemiological spread.
 4. **Optimization Mechanisms:** Exploring methods like dropout layers, network pruning, and data transformation strategies to maximize accuracy while mitigating resource consumption.
+
+---
+
+## Method Overview: The ConXNet Model
+The ConXNet model is engineered out of **four core sequential blocks**. Each block features a structural layout designed to extract features robustly while preventing internal covariate shifts:
+* **Convolutional Layer (Conv):** Extracts low-to-high level spatial features (edges, soft boundaries, textures) via filter matrices.
+* **Rectified Linear Unit (ReLU):** Implements non-linear mappings, forcing the network to lean non-negative linear values.
+* **Batch Normalization (BN):** Stabilizes training trajectories and aggressively prevents overfitting.
+* **MaxPooling Layer:** Performs spatial downsampling to retain only the most prominent structural elements.
+
+The output maps are ultimately flattened and fed into a fully connected Dense Layer followed by a binary output classifier.
+
+<p align="center">
+  <img src="images/figure10_architecture.png" alt="Proposed ConXNet Model Architecture" width="800"><br>
+  <em>Figure 10: Structural workflow of the proposed ConXNet model for COVID-19 detection.</em>
+</p>
+
+### 2. Algorithmic Flowchart
+The diagnostic implementation handles balanced sampling, data splitting ($70\%$ training, $30\%$ validation), forward feature extraction, adaptive optimization, and final output categorization.
+
+<p align="center">
+  <img src="images/figure11_flowchart.png" alt="Algorithm Flowchart" width="500"><br>
+  <em>Figure 11: End-to-end flowchart of the proposed diagnostic algorithm.</em>
+</p>
 
 ---
 
@@ -46,13 +72,13 @@ pip install -r requirements.txt
 ## Citation
 
 @article{azeem2023neural,
-          &emsp;title={Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges},  
-          &emsp;author={Azeem, Muhammad and Javaid, Shumaila and Khalil, Ruhul Amin and Fahim, Hamza  and Althobaiti, Turke and Alsharif, Nasser and Saeed, Nasir},  
-          &emsp;journal={Bioengineering},  
-          &emsp;volume={10},  
-          &emsp;number={7},  
-          &emsp;pages={850},  
-          &emsp;year={2023},  
-          &emsp;publisher={MDPI},  
-          &emsp;doi={10.3390/bioengineering10070850}  
+          title={Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges},  
+          author={Azeem, Muhammad and Javaid, Shumaila and Khalil, Ruhul Amin and Fahim, Hamza  and Althobaiti, Turke and Alsharif, Nasser and Saeed, Nasir},  
+          journal={Bioengineering},  
+          volume={10},  
+          number={7},  
+          pages={850},  
+          year={2023},  
+          publisher={MDPI},  
+          doi={10.3390/bioengineering10070850}  
 }
