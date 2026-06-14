@@ -100,10 +100,13 @@ pip install -r requirements.txt
 | **Proposed ConXNet** | **97.80%** | **97.93%** | **97.92%** | **100** |
 
 </p>
+
 ## Visual Results
 <p align="center">
+  
   <img src="src/visual.png" alt="Algorithm Flowchart" width="500"><br>
   <em>Images used to evaluate the model accuracy with their outputs (a). Original image of COVID-19 patient (b). Heat map view of COVID-infected region. (c) Original image of the normal patient (d). Heat map view of the normal image.</em>
+  
 </p>
 
 ---
