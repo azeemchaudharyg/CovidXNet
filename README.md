@@ -64,9 +64,29 @@ The diagnostic implementation handles balanced sampling, data splitting ($70\%$ 
 
 We recommend utilizing an Anaconda environment to manage dependencies and reproducibility.
 
-conda create -n neural-disease-det python=3.10 -y
-conda activate neural-disease-det
-pip install -r requirements.txt
+conda create -n neural-disease-det python=3.10 -y  
+conda activate neural-disease-det  
+pip install -r requirements.txt  
+
+---
+
+## Dataset
+
+---
+
+## Experimental Results
+### Quantitative Results
+| Model Architecture | Accuracy (↑) | Precision (↑) | F1-Score (↑) | Epochs |
+| :--- | :---: | :---: | :---: | :---: |
+| VGG-16 Baseline | 91.20% | 90.85% | 91.00% | 50 |
+| ResNet-50 Baseline | 94.45% | 94.10% | 94.22% | 50 |
+| **Proposed ConXNet** | **97.80%** | **97.93%** | **97.92%** | **100** |
+
+## Visual Results
+<p align="center">
+  <img src="src/flowchart.png" alt="Algorithm Flowchart" width="500"><br>
+  <em>Figure 11: End-to-end flowchart of the proposed diagnostic algorithm.</em>
+</p>
 
 ---
 
