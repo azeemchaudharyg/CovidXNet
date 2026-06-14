@@ -1,10 +1,10 @@
 # Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges
 
 <p align="left">
-  <a href="https://www.mdpi.com/2306-5354/10/7/850"><img src="https://img.shields.io/badge/Bioengineering-2023-blue" alt="Journal"></a>
+  <a href="https://www.mdpi.com/2306-5354/10/7"><img src="https://img.shields.io/badge/Bioengineering-2023-blue" alt="Journal"></a>
   <a href="https://doi.org/10.3390/bioengineering10070850"><img src="https://img.shields.io/badge/DOI-10.3390%2Fbioengineering10070850-red" alt="DOI"></a>
-  <a href="https://github.com/your-username/your-repo-name"><img src="https://img.shields.io/badge/TensorFlow-Implementation-orange" alt="Implementation"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
+  <a href="https://github.com/azeemchaudharyg/CovidXNet"><img src="https://img.shields.io/badge/TensorFlow-Implementation-orange" alt="Implementation"></a>
+  <a href="#"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
 </p>
 
 Official repository accompanying the review paper: **"Neural Networks for the Detection of COVID-19 and Other Diseases: Prospects and Challenges"**
