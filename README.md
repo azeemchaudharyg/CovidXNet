@@ -11,7 +11,7 @@ Official repository accompanying the review paper: **"Neural Networks for the De
 
 **Authors:** Muhammad Azeem, Shumaila Javaid, Ruhul Amin Khalil, Hamza Fahim, Turke Althobaiti, Nasser Alsharif, and Nasir Saeed 
 
-**Institution:** University of Salford, Manchester, England, UK.  
+**Institution:** University of Salford, Manchester, England, UK & Collaborating Institutions  
 
 ---
 
